@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset name="component"
+		label=""
+		description=""
+	>
+
+		<field name="graph_height" type="text"
+		    class="inputbox"
+			default="150"
+			description="Altura do gráfico"
+			label="Altura"
+		>
+		</field>
+
+		<field	name="graph_width" type="text"
+		        class="inputbox"
+				default="640"
+				label="Largura"
+				description="Largura do gráfico">
+		</field>
+  	    <field	name="zabbix_address" type="text"
+		        class="inputbox"
+				label="Endereço IP ou hostname"
+				description="Endereço IP ou hostname do servidor zabbix">
+		</field>
+  	    <field	name="zabbix_user_pt" type="text"
+		        class="inputbox"
+				default="monitor"
+				label="Usuário zabbix pt"
+				description="Usuário do zabbix para acessar gráfico em português">
+		</field>
+  	    <field	name="zabbix_user_en" type="text"
+		        class="inputbox"
+				default="monitor-en"
+				label="Usuário zabbix en"
+				description="Usuário do zabbix para acessar gráfico em inglês">
+		</field>
+  	    <field	name="zabbix_password" type="password"
+		        class="inputbox"
+				label="Senha zabbix"
+				description="Senha de acesso do usuário ao zabbix (deve ser a mesma para os usuários pt e en)">
+		</field>
+
+
+	</fieldset>
+</config>

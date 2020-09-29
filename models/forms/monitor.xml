@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+        <fieldset>
+                <field
+                        name="id"
+                        type="hidden"
+                />
+                <field
+                        name="descricao"
+                        type="text"
+                        label="Descrição"
+                        description="Descrição do link"
+                        size="40"
+                        class="inputbox"
+                        default=""
+                />
+                <field
+                        name="banda"
+                        type="int"
+                        label="Banda"
+                        description="Banda do link"
+                        size="10"
+                        class="inputbox"
+                        default=""
+                />
+                <field
+                        name="grafico"
+                        type="int"
+                        label="Gráfico"
+                        description="ID do gráfico no Zabbix"
+                        size="8"
+                        class="inputbox"
+                        default=""
+                />
+       </fieldset>
+</form>

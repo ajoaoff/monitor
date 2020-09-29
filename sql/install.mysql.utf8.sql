@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS `#__link`;
+ 
+CREATE TABLE `#__link` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `descricao` VARCHAR(25) NOT NULL,
+  `banda` INT(11),
+  `grafico` INT(11),
+   PRIMARY KEY  (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
